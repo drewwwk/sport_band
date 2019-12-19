@@ -36,4 +36,32 @@
             margin-top: 12px;
         }
     }
+    .consultation {
+        &__header {
+            font-size: 30px;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &__descr {
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffffff;
+            margin-top: 30px;
+            margin-left: 15px;
+        }
+        
+    }
+    .feed-form {
+        input {
+            margin-left: 30px ;
+        }
+    }
+    .button {
+        &_submit {
+            margin-left: 120px;
+            margin-top: 30px;
+        }
+    }
 }
