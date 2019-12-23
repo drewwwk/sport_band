@@ -64,4 +64,30 @@
             margin-top: 30px;
         }
     }
+    .carousel {
+        .tns-nav {
+            button{
+                display: block;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .tns-nav {
+        button{
+            display: none;
+        }
+        
+    }
+}
+
+@media (max-width: 1920px) {
+    .tns-nav {
+        button{
+            display: none;
+        }
+        
+    }
 }
