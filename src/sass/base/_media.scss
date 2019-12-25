@@ -18,6 +18,41 @@
         &__wrapper {
             align-items: center;
         }
+        &__header {
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        &__subheader {
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 18px;
+            text-align: center;
+        }
+        &__icons {
+            display: flex;
+            margin-top: 65px;
+            width: 376px;
+            justify-content: space-around;
+        }
+        &__icon {
+            width: 108px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            img {
+                width: 40px;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
     }
     .benefit {
         max-height: none;
@@ -66,10 +101,95 @@
     }
     .carousel {
         .tns-nav {
+            width: 160px;
             button{
                 display: block;
+                width: 4px;
+                height: 30px;
+                justify-content: space-around;
             }
             
+        }
+    }
+    .footer__info {
+        width: 300px;
+    }
+    .button {
+        &_submit {
+            width: 180px ;
+        }
+    }
+    .catalog {
+        &__content {
+            margin-top: 50px;
+            justify-content: center;
+        }
+        &-item {
+
+        }
+        &__tabs {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        &__tab {
+            width: 100px;
+            height: 45px; 
+            border: 2px solid #d0d0d0;
+            color: #6b6b6b;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 18px;
+            transform: skewX(0deg);
+            margin: 0 3px;
+            cursor: pointer;
+            transition: 0.7s all;
+            &:hover {
+                box-shadow: 3px 3px 15px greenyellow;
+                border: none;
+            }
+            div {
+                transform: skewX(0deg);
+            }
+            &_active {
+                background-color: $main-color;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+    .review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        width: 370px;
+        &__header {
+            margin-bottom: 30px;
+        }
+        &__item {
+            display: block;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        &__img {
+            width: 170px;
+            height: 170px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__subtitle {
+            display: block;
+            font-size: 14px;
+            font-weight: 300;
+            margin: 2px 0 6px 0;
+        }
+        &__descr {
+            font-size: 16px;
+            font-weight: 300;
         }
     }
 }
@@ -79,7 +199,14 @@
         button{
             display: none;
         }
-        
+    .button {
+        &_submit {
+            width: 180px;
+        }
+    }
+    }
+    .footer__info {
+        width: 300px;
     }
 }
 
